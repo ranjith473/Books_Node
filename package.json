@@ -1,0 +1,26 @@
+{
+  "name": "books_app",
+  "version": "1.0.0",
+  "description": "books_app_crud",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ranjith473/Books_App.git"
+  },
+  "author": "Ranjith Juluru",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ranjith473/Books_App/issues"
+  },
+  "homepage": "https://github.com/ranjith473/Books_App#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "method-override": "^3.0.0",
+    "mongoose": "^7.6.3"
+  }
+}
