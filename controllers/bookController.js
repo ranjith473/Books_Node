@@ -70,7 +70,7 @@ const Book = {
             } else {
               book.set(req.body);
               await book.save();
-              res.send({ status: 204, message: "UPDATED", details: book });
+              res.send({ status: 200, message: "UPDATED", details: book });
 
         }
     }
